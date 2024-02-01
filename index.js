@@ -43,6 +43,7 @@ const weatherIcon = document.querySelector(".weather-icon");
         checkWeather(searchBox.value);
     });
 
+    //Pressing enter
     searchBox.addEventListener("keypress", (e) => {
         if(e.key === "Enter") {
             checkWeather(searchBox.value);
